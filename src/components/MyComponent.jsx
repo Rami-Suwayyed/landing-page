@@ -1,7 +1,7 @@
 import React from "react";
 import "./MyComponent.css"; // Assuming you have a CSS file named App.css
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUsers, faCheck  } from "@fortawesome/free-solid-svg-icons";
+import { faUsers, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   return (
@@ -32,33 +32,28 @@ const App = () => {
 
             <ul className="nav-bar">
               <li>
-                <a href="#" className="active">
-                  Home
-                </a>
+                <a href="/" className="active">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <a href="/projects">Projects</a>
               </li>
               {/* <li>
                 <a href="#">Blog</a>
               </li> */}
               <li>
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a href="#" className="register">
-                 Resume
-                </a>
+                <a href="/resume" className="register">Resume</a>
               </li>
               <button className="close-navBar outer-shadow hover-in-shadow">
                 x
               </button>
               <div className="copy-right">
-                <p>&copy; 2025 <a href="https://rami-suwayyed.netlify.app/" target="_blank" rel="noopener noreferrer">
-                Rami Suwayyed</a> All rights reserved</p>
+                <p>&copy; 2025 <a href="https://rami-suwayyed.netlify.app/" target="_blank" rel="noopener noreferrer">Rami Suwayyed</a> All rights reserved</p>
               </div>
             </ul>
           </div>
@@ -77,14 +72,14 @@ const App = () => {
               ex quas cumque.
             </p>
             <button>
-              <a href="#">Get Services</a>
+              <a href="/services" aria-label="Get Services">Get Services</a>
             </button>
           </div>
           <div className="landing-img">
             <div className="circle-effect"></div>
             <div className="left-box">
               <div className="icon">
-                <FontAwesomeIcon icon={faUsers} /> {/* Use the imported icon */}
+                <FontAwesomeIcon icon={faUsers} />
               </div>
               <div>
                 <h3>1520+</h3>
@@ -96,11 +91,11 @@ const App = () => {
             </div>
             <div className="right-box">
               <p>
-                <FontAwesomeIcon icon={faCheck} /> {/* Use the imported icon */}
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Get 20% off on every 1st month</span>
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} /> {/* Use the imported icon */}
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Expert Doctors</span>
               </p>
             </div>
