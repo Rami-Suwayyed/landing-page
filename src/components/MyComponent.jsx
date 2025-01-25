@@ -1,7 +1,7 @@
 import React from "react";
 import "./MyComponent.css"; // Assuming you have a CSS file named App.css
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUsers, faCheck , faBars , faTimes , faHome , faUser , faProjectDiagram , faBlog , faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faUsers, faCheck  } from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   return (
